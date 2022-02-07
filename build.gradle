@@ -8,6 +8,7 @@ group 'com.weme.webservice'
 version '1.0.4-SNAPSHOT'
 sourceCompatibility = 1.8
 
+
 repositories {
     mavenCentral()
     jcenter()
@@ -28,6 +29,9 @@ dependencies {
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation("org.springframework.security:spring-security-test")
+
+    compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.11.3'
+    compile group: 'io.github.openfeign', name: 'feign-soap', version: '10.11'
 
 }
 

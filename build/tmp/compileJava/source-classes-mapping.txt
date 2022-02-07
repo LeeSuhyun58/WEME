@@ -1,4 +1,21 @@
+com/weme/webservice/api/AnimalAPISet.java
+ com.weme.webservice.api.AnimalAPISet
+com/weme/webservice/domain/Animal.java
+ com.weme.webservice.domain.Animal
+ com.weme.webservice.domain.Animal$AnimalBuilder
+com/weme/webservice/api/AnimalRepository.java
+ com.weme.webservice.api.AnimalRepository
+com/weme/webservice/domain/xml/AnimalInfoResponse.java
+ com.weme.webservice.domain.xml.AnimalInfoResponse
+ com.weme.webservice.domain.xml.AnimalInfoResponse$Body
+ com.weme.webservice.domain.xml.AnimalInfoResponse$Header
+ com.weme.webservice.domain.xml.AnimalInfoResponse$Item
 com/weme/webservice/Application.java
  com.weme.webservice.Application
-com/weme/webservice/api/APIController.java
- com.weme.webservice.api.APIController
+com/weme/webservice/domain/xml/AnimalShelterInfoResponse.java
+ com.weme.webservice.domain.xml.AnimalShelterInfoResponse
+ com.weme.webservice.domain.xml.AnimalShelterInfoResponse$Body
+ com.weme.webservice.domain.xml.AnimalShelterInfoResponse$Header
+ com.weme.webservice.domain.xml.AnimalShelterInfoResponse$Item
+com/weme/webservice/api/OpenDataAPI.java
+ com.weme.webservice.api.OpenDataAPI
